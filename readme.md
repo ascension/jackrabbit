@@ -3,6 +3,7 @@
 [![Build Status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url]
 
 [RabbitMQ](https://www.rabbitmq.com/) in Node.js without hating life.
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
 ## Simple Example
 
