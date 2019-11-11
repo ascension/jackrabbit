@@ -1,8 +1,7 @@
 {
-  "name": "jackrabbit",
+  "name": "@ascension/jackrabbit",
   "version": "4.4.0",
   "description": "Easy RabbitMQ for node",
-  "readme": "https://github.com/hunterloftis/jackrabbit/blob/master/readme.md",
   "keywords": [
     "amqp",
     "rabbit",
@@ -12,9 +11,14 @@
     "task",
     "resqueue"
   ],
-  "repository": "hunterloftis/jackrabbit",
-  "homepage": "https://github.com/hunterloftis/jackrabbit",
-  "bugs": "https://github.com/hunterloftis/jackrabbit/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ascension/jackrabbit.git"
+  },
+  "homepage": "https://github.com/ascension/jackrabbit",
+  "bugs": {
+    "url": "https://github.com/ascension/jackrabbit/issues"
+  },
   "main": "lib/jackrabbit.js",
   "scripts": {
     "test": "mocha -R spec && npm run test-format",
@@ -24,7 +28,7 @@
   "engines": {
     "node": ">= 0.10.x"
   },
-  "author": "Hunter Loftis <hunter@hunterloftis.com>",
+  "author": "Jerrod Bunce <jerroddb@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "amqplib": "^0.4.2",
@@ -37,5 +41,10 @@
     "prettier": "1.13.7",
     "prettier-eslint-cli": "^4.7.1",
     "release-it": "^7.4.7"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
